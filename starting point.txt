@@ -6,16 +6,15 @@ Database server - permissions management? or is that LDAP as well?
 certificate (SSL) server - secure connection management
 
 1. Attempt connection to file server, opening a secure connection through SSL server.
-2. Authenticate through LDAP server
-3. Connect to file server
+2. Authenticate through LDAP server.
+3. Finalize connection to file server if authenticated successfully.
 4. Permissions are managed upon successful login by LDAP or database server, not sure which.
-5. Upload/download/delete files.
+5. Upload/download/delete files, while ensuring other clients' files are inaccessible and invisible.
 6. Logout and close secure connection.
 
-Is this going to be 2 separate programs? One for clients, and one for the file server to 
-manage files while interacting with client permissions? Or can we somehow incorporate both
-elements into a single program? Is this going to all be run on a single system or several, 
-which would require introducing networking into the program?
+Ideally, this will be a single program to manage everything from client authentication and permissions checking/management to file manipulation. I think we can use a lot of
+open source code for this project to fill in large parts, like managing the SSL connection; I'm sure that's been perfected already, so no need to re-invent the wheel here.
+Re-use open source code where possible.
 
 
 **Side Notes - Extra, Unnecessary Bits**
