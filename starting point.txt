@@ -1,8 +1,8 @@
 SECURE FILE MANAGEMENT APPLICATION
 
 File server - file storage location for upload/download/delete
-LDAP server - client authentication
-Database server - permissions management? or is that LDAP as well?
+LDAP server - client authentication and management
+Database server (optional) - permissions management? or is that LDAP as well?
 certificate (SSL) server - secure connection management
 
 1. Attempt connection to file server, opening a secure connection through SSL server.
