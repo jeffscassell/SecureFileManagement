@@ -1,0 +1,26 @@
+//imports
+import java.io.File;
+import java.util.Scanner;
+
+//class ment to delete files 
+public class Delete 
+{
+  private Scanner input = new Scanner(System.in);
+  
+  //for right now have main in individual classes
+
+  public void deletes()
+  {
+    System.out.printf("where is the file directory and what is the name\nC:\\Users\\Myname\\fileName.txt\n");
+    String fileName = input.nextLine(); 
+    File fileD = new File(fileName);
+    //File fileD = new File(".//Sam//test.txt");
+   
+    //looks for and deletes any file called "test.txt"
+    if (fileD.delete()) { 
+      System.out.println("Deleted the file: " + fileD.getName());
+    } else {
+      System.out.println("Failed to delete the file.");
+    }
+  }
+}
