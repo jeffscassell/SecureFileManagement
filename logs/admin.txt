@@ -1,0 +1,10 @@
+2021-04-14 WED 11:17:23: admin logged in
+2021-04-14 WED 11:17:32: admin modified test's download permission to false
+2021-04-14 WED 11:17:32: admin modified test's upload permission to false
+2021-04-14 WED 11:17:33: admin modified test's delete permission to false
+2021-04-14 WED 11:17:34: admin logged out
+2021-04-14 WED 11:18:24: admin logged in
+2021-04-14 WED 11:18:25: admin modified test's upload permission to true
+2021-04-14 WED 11:18:26: admin modified test's download permission to true
+2021-04-14 WED 11:18:26: admin modified test's delete permission to true
+2021-04-14 WED 11:18:27: admin logged out

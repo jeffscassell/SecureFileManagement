@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+
+<!-- servlet and servlet-mapping are paired by the servlet-name tag, so that tag must match -->
+<!-- <servlet> -->
+<!-- 	<servlet-name>add</servlet-name> -->
+<!-- 	<servlet-class>com.sfm.AddServlet</servlet-class> -->
+
+<!-- this initializes with this particular servlet and cannot be reached by any other servlet -->
+<!-- <init-param>
+		<param-name>name</param-name>
+		<param-value>jeff</param-value>
+	</init-param> -->
+<!-- </servlet> -->
+
+<!-- <servlet-mapping> -->
+<!-- 	<servlet-name>add</servlet-name> -->
+<!-- 	<url-pattern>/add</url-pattern> -->
+<!-- </servlet-mapping> -->
+
+
+<security-constraint>
+    <web-resource-collection>
+        <web-resource-name>SecureFileManager/home.jsp</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <user-data-constraint>
+        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+</security-constraint>
+
+
+<!-- <servlet> -->
+<!-- 	<servlet-name>audit</servlet-name> -->
+<!-- 	<servlet-class>Audit</servlet-class> -->
+<!-- </servlet> -->
+
+<!-- <servlet-mapping> -->
+<!-- 	<servlet-name>audit</servlet-name> -->
+<!-- 	<url-pattern>/</url-pattern> -->
+<!-- </servlet-mapping> -->
+
+
+
+<!-- this can be reached by any servlet
+maybe to be used for a file location, like the audit log, database location, LDAP location
+<context-param>
+	<param-name>homeDir</param-name>
+	<param-value>C:\Users\Jeff\eclipse-workspace\SecureFileManager</param-value>
+</context-param>
+ -->
+
+<welcome-file-list>
+	<welcome-file>home.jsp</welcome-file>
+</welcome-file-list>
+
+</web-app>

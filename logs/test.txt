@@ -1,0 +1,20 @@
+2021-04-14 WED 11:15:51: test logged in
+2021-04-14 WED 11:16:14: test uploaded "Cassell, Jeffrey_certificate.pdf"
+2021-04-14 WED 11:16:14: test uploaded "cassell_avd543_mgt_3003_006_critical_thinking.docx"
+2021-04-14 WED 11:16:14: test uploaded "elevator pitch pass.pdf"
+2021-04-14 WED 11:16:14: test uploaded "elevator pitch.txt"
+2021-04-14 WED 11:16:14: test uploaded "Jeffrey S Cassell Resume.docx"
+2021-04-14 WED 11:16:14: test uploaded "resume pass.pdf"
+2021-04-14 WED 11:16:39: test downloaded "Cassell, Jeffrey_certificate.pdf"
+2021-04-14 WED 11:16:46: test deleted "Cassell, Jeffrey_certificate.pdf"
+2021-04-14 WED 11:16:51: test deleted "cassell_avd543_mgt_3003_006_critical_thinking.docx"
+2021-04-14 WED 11:17:07: test deleted "elevator pitch pass.pdf"
+2021-04-14 WED 11:17:11: test deleted "elevator pitch.txt"
+2021-04-14 WED 11:17:14: test deleted "Jeffrey S Cassell Resume.docx"
+2021-04-14 WED 11:17:16: test deleted "resume pass.pdf"
+2021-04-14 WED 11:17:17: test logged out
+2021-04-14 WED 11:17:38: test logged in
+2021-04-14 WED 11:18:14: !!! test attempted to download without permission
+2021-04-14 WED 11:18:16: !!! test attempted to download without permission
+2021-04-14 WED 11:18:17: !!! test attempted to delete without permission
+2021-04-14 WED 11:18:19: test logged out
