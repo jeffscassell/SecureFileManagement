@@ -1,0 +1,1 @@
+This was a project undertaken for UTSA's 3033 OS Security course. It uses java to host a proof-of-concept secure file management web server, using LDAP for user authentication, MySQL for user and file management, and TLS for secure connections.
