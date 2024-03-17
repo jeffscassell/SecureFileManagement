@@ -22,7 +22,7 @@
         <form action="UploadServlet" method="post" enctype="multipart/form-data" autocomplete="off">
 		<td><input type="file" name="files" multiple></td>
 		<td><input type="submit" value="Upload (64 KB)"></td>
-	</form>
+		</form>
       </div>
     </div>
     <div class="carre_couleur base_hov" style="background-color:#2ecc71;">

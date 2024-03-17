@@ -26,7 +26,7 @@ public final class Config implements SqlConfig, LdapConfig, LoggerConfig
 	// logger
 	private String loggerParentDir;
 	
-	// if settings were successfully loaded, this becomes true
+	// if settings are successfully loaded, this becomes true
 	private boolean loaded = false;
 	
 	
@@ -38,7 +38,7 @@ public final class Config implements SqlConfig, LdapConfig, LoggerConfig
 	
 	
 	
-	// constructor returns early if there is a problem with the config file, leaving loaded set to false
+	// constructor returns early if there is a problem with the config file, leaving loaded field set to false
 	private Config()
 	{
 		Properties props;

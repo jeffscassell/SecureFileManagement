@@ -2,7 +2,7 @@
 setlocal
 
 rem Make sure user knows where to run this file from.
-echo This script will make the keystore and truststore files in the directory it's run from.
+echo This script will make the keystore and truststore files within the directory it's run from.
 echo.
 pause
 cls
